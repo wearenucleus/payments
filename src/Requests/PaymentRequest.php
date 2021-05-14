@@ -63,7 +63,7 @@ class PaymentRequest {
             $params["reference"] = $this->reference;
         }
         if ($this->customer) {
-            $params["payment_customer"] = $this->customer->toArray();
+            $params["customer"] = $this->customer->toArray();
         }
         if ($this->scopes !== null) {
             $params["scopes"] = $this->scopes->toArray();
