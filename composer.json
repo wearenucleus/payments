@@ -2,9 +2,10 @@
     "name": "wearenucleus/payments",
     "description": "Nucleus OpenBanking Payments PHP SDK",
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.4"
     },
-    "version": "0.0.1",
+    "license": "MIT",
+    "version": "0.0.2",
     "autoload": {
         "psr-4": {
             "Nucleus\\": "src/"
