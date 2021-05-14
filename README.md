@@ -42,5 +42,5 @@ $payment = new Payment(getenv('NUCLEUS_CLIENT_ID'), getenv('NUCLEUS_CLIENT_SECRE
 $payment->useSandbox();
 $response = $payment->initialize($request);
 
-header("Location: $response['payment_url']");
+header("Location: {$response['payment_url']}");
 ```
