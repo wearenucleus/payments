@@ -1,0 +1,13 @@
+{
+    "name": "wearenucleus/payments",
+    "description": "Nucleus OpenBanking Payments PHP SDK",
+    "require": {
+        "php": ">=7.3"
+    },
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Nucleus\\": "src/"
+        }
+    }    
+}
